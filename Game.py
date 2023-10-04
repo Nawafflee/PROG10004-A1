@@ -67,7 +67,7 @@ class Game:
     officeSpeech4 = "ITALY! Mammamìa!"
    
     #King Dice Speech
-    officeSpeech5= "Yes, it was a special order from the italian mafia, I can't wait to try it on the both of you! HAHAHAHA!"
+    officeSpeech5= "Yes, it was a special order from the Italian Mafia, I can't wait to try it on the both of you! HAHAHAHA!"
     officeSpeech6= "I have decided that one of you will be tortured while the other will live to do my bidding!"
     officeSpeech7 = "Until I get bored of it obviously, which is never!!"
     
