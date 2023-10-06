@@ -151,7 +151,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate, "Yes, I feel bad and he reminds me a lot of my days eating KFC and my time with Adin too, but a brokie version of himself!")
                 Game.Game.textSpeed(textSetting)
-                print("Andrew & Tristan (Privately): I mean you do realize that King Dice hasn't been fair enough with my casino establishments lately, he's been aiming for a 30 percent cut on our earnings and that is bad, we can't even afford to buying a new Buggati!")
+                print("Andrew & Tristan (Privately): I mean you do realize that King Dice hasn't been fair enough with my casino establishments lately, he's been aiming for a 30 percent cut on our earnings and that is bad, we can't even afford to buying a new Bugatti!")
                 Game.Game.textSpeed(textSetting)
                 print("Tristan (Privately): Also, my expensive cigars were all taken by him not to mention me lending him a my new Aston martin, so now I am driving my Lada and I feel like a brokie too! No other women will see as me as the 'Rich Romanian Playboy' that dates models!")
                 Game.Game.textSpeed(textSetting)
@@ -161,7 +161,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print("*Cuphead, Andrew, and Tristan Enter the Garage*")
                 Game.Game.textSpeed(textSetting)
-                print("A wild Buggati Appears!")
+                print("A wild Bugatti Appears!")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Tristan! Do your thing and transform into a wizard!")
                 Game.Game.textSpeed(textSetting)
@@ -171,11 +171,11 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print("Tristan Transforms into a wizard and enchants a spell....")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.tristanTate,"Buggati Buggati on the floor show me the greatest weapon of them all!")
+                print(Game.Game.tristanTate,"Bugatti Bugatti on the floor show me the greatest weapon of them all!")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.tristanTate,"Turn yourself into a two-sided Dice and give it all to Cuphead without thinking twice!")
                 Game.Game.textSpeed(textSetting)
-                print("The Buggati Transforms into a two-sided dice capable of causing havok among any enemy...")
+                print("The Bugatti Transforms into a two-sided dice capable of causing havok among any enemy...")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.cuphead, "Thank you Top G, I am glad to have done this with you, I will need to rescue Mugman Now!")
                 Game.Game.textSpeed(textSetting)
@@ -198,7 +198,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.PipandDot,"So you have come to join your brother at the torture chamber...")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.cuphead, "Buggati Dice! Activate!")
+                print(Game.Game.cuphead, "Bugatti Dice! Activate!")
                 Game.Game.textSpeed(textSetting)
                 test = str(input("Type 'Roll' or 'roll' to roll the dice: "))
                 Game.Game.textSpeed(textSetting)
@@ -221,6 +221,8 @@ while True:
                 else: 
                     Game.Game.inGameExit()
 
+                Game.Game.textSpeed(textSetting)
+                print(Cuphead.Cuphead.cupheadName, "Defeats Pip and Dot")
                 Game.Game.textSpeed(textSetting)
                 print(Cuphead.Cuphead.cupheadName, "Saves Mugman")
 
@@ -260,6 +262,9 @@ while True:
                     print("Challenge is won and",Cuphead.Cuphead.cupheadName,"has won", number, "Making his speed attribute at", (Cuphead.Cuphead.speedCuphead) + number)
                 else: 
                     Game.Game.inGameExit()
+
+                Game.Game.textSpeed(textSetting)
+                print(Cuphead.Cuphead.cupheadName, "Defeats King Dice")
                 Game.Game.textSpeed(textSetting)
 
                 #Phase Three Loading Screen
@@ -297,14 +302,23 @@ while True:
                     print("Challenge is won and",Cuphead.Cuphead.cupheadName,"has won", number, "Making his wisdom attribute", (Cuphead.Cuphead.wisdomCuphead) + number)
                 else: 
                     Game.Game.inGameExit()
+
                 Game.Game.textSpeed(textSetting)
+                print(Cuphead.Cuphead.cupheadName, "Defeats The Devil")
+                Game.Game.textSpeed(textSetting)
+
+                #Final Loading Screen 
+                print(Game.Game.starSymbol)
+                print(Game.Game.loadingScreen.center(70))
+                print(Game.Game.starSymbol)
+                time.sleep(5)    
 
                 #Game Ending Cuphead with Statistics Menu Option
                 print("*** Cuphead and Mugman gifts the dice to Ms. Chalice but Ms. Chalice has already changed her facebook status to 'in a relationship with Tristan Tate' ***")
                 Game.Game.textSpeed(textSetting)
                 print("*** Cuphead and Mugman are in shock and can't comprehend what is happening? ***")
                 Game.Game.textSpeed(textSetting)
-                print("Tristan & Andrew: You were both being played in the end and now we would like my have our 10,000,000$ Buggati branded Dice back!")
+                print("Tristan & Andrew: You were both being played in the end and now we would like my have our 10,000,000$ Bugatti branded Dice back!")
                 Game.Game.textSpeed(textSetting)
                 print("To be continued....")
                 Game.Game.textSpeed(textSetting)
@@ -361,7 +375,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate, "Yes, I feel bad and he reminds me a lot of my days eating KFC and my time with Adin too, but a brokie version of himself!")
                 Game.Game.textSpeed(textSetting)
-                print("Andrew & Tristan (Privately): I mean you do realize that King Dice hasn't been fair enough with my casino establishments lately, he's been aiming for a 30 percent cut on our earnings and that is bad, we can't even afford to buying a new Buggati!")
+                print("Andrew & Tristan (Privately): I mean you do realize that King Dice hasn't been fair enough with my casino establishments lately, he's been aiming for a 30 percent cut on our earnings and that is bad, we can't even afford to buying a new Bugatti!")
                 Game.Game.textSpeed(textSetting)
                 print("Tristan (Privately): Also, my expensive cigars were all taken by him not to mention me lending him a my new Aston martin, so now I am driving my Lada and I feel like a brokie too! No other women will see as me as the 'Rich Romanian Playboy' that dates models!")
                 Game.Game.textSpeed(textSetting)
@@ -371,7 +385,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print("*Cuphead, Andrew, and Tristan Enter the Garage*")
                 Game.Game.textSpeed(textSetting)
-                print("A wild Buggati Appears!")
+                print("A wild Bugatti Appears!")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Tristan! Do your thing and transform into a wizard!")
                 Game.Game.textSpeed(textSetting)
@@ -381,11 +395,11 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print("Tristan Transforms into a wizard and enchants a spell....")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.tristanTate,"Buggati Buggati on the floor show me the greatest weapon of them all!")
+                print(Game.Game.tristanTate,"Bugatti Bugatti on the floor show me the greatest weapon of them all!")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.tristanTate,"Turn yourself into a two-sided Dice and give it all to Cuphead without thinking twice!")
                 Game.Game.textSpeed(textSetting)
-                print("The Buggati Transforms into a two-sided dice capable of causing havok among any enemy...")
+                print("The Bugatti Transforms into a two-sided dice capable of causing havok among any enemy...")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.cuphead, "Thank you Top G, I am glad to have done this with you, I will need to rescue Mugman Now!")
                 Game.Game.textSpeed(textSetting)
@@ -408,7 +422,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.PipandDot,"So you have come to join your brother at the torture chamber...")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.cuphead, "Buggati Dice! Activate!")
+                print(Game.Game.cuphead, "Bugatti Dice! Activate!")
                 Game.Game.textSpeed(textSetting)
                 test = str(input("Type 'Roll' or 'roll' to roll the dice: "))
                 Game.Game.textSpeed(textSetting)
@@ -431,6 +445,8 @@ while True:
                 else: 
                     Game.Game.inGameExit()
 
+                Game.Game.textSpeed(textSetting)
+                print(Cuphead.Cuphead.cupheadName, "Defeats Pip and Dot")
                 Game.Game.textSpeed(textSetting)
                 print(Cuphead.Cuphead.cupheadName, "Saves Mugman")
 
@@ -472,6 +488,10 @@ while True:
                     Game.Game.inGameExit()
                 Game.Game.textSpeed(textSetting)
 
+                Game.Game.textSpeed(textSetting)
+                print(Cuphead.Cuphead.cupheadName, "Defeats King Dice")
+                Game.Game.textSpeed(textSetting)
+
                 #Phase Three Loading Screen
                 print(Game.Game.starSymbol)
                 print(Game.Game.loadingScreen.center(70))
@@ -507,14 +527,23 @@ while True:
                     print("Challenge is won and",Cuphead.Cuphead.cupheadName,"has won", number, "Making his wisdom attribute at: ", (Cuphead.Cuphead.wisdomCuphead) + number)
                 else: 
                     Game.Game.inGameExit()
+
                 Game.Game.textSpeed(textSetting)
+                print(Cuphead.Cuphead.cupheadName, "Defeats The Devil")
+                Game.Game.textSpeed(textSetting)
+
+                #Final Loading Screen 
+                print(Game.Game.starSymbol)
+                print(Game.Game.loadingScreen.center(70))
+                print(Game.Game.starSymbol)
+                time.sleep(5)    
 
                 #Game Ending Cuphead without statistics Menu Option
                 print("*** Cuphead and Mugman gifts the dice to Ms. Chalice but Ms. Chalice has already changed her facebook status to 'in a relationship with Tristan Tate' ***")
                 Game.Game.textSpeed(textSetting)
                 print("*** Cuphead and Mugman are in shock and can't comprehend what is happening? ***")
                 Game.Game.textSpeed(textSetting)
-                print("Tristan & Andrew: You were both being played in the end and now we would like my have our 10,000,000$ Buggati branded Dice back!")
+                print("Tristan & Andrew: You were both being played in the end and now we would like my have our 10,000,000$ Bugatti branded Dice back!")
                 Game.Game.textSpeed(textSetting)
                 print("To be continued....")
                 Game.Game.textSpeed(textSetting)
@@ -578,7 +607,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate, "Yes, I feel bad and he reminds me a lot of my days eating KFC and my time with Adin too, but a brokie version of himself!")
                 Game.Game.textSpeed(textSetting)
-                print("Andrew & Tristan (Privately): I mean you do realize that King Dice hasn't been fair enough with my casino establishments lately, he's been aiming for a 30 percent cut on our earnings and that is bad, we can't even afford to buying a new Buggati.")
+                print("Andrew & Tristan (Privately): I mean you do realize that King Dice hasn't been fair enough with my casino establishments lately, he's been aiming for a 30 percent cut on our earnings and that is bad, we can't even afford to buying a new Bugatti.")
                 Game.Game.textSpeed(textSetting)
                 print("Tristan (Privately): Also, my expensive cigars were all taken by him not to mention me lending him a my new Aston martin, so now I am driving my Lada and I feel like a brokie too! No other women will see as me as that rich Romanian Playboy that dates models anymore!")
                 Game.Game.textSpeed(textSetting)
@@ -586,9 +615,9 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Have no Worries brother! I will provide you with the weapon of mass destruction!")
                 Game.Game.textSpeed(textSetting)
-                print("*Mugman Andrew and Tristan Enter the Garage*")
+                print("*Mugman, Andrew, and Tristan Enter the Garage*")
                 Game.Game.textSpeed(textSetting)
-                print("A wild Buggati Appears!")
+                print("A wild Bugatti Appears!")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Tristan! Do your thing and transform into a wizard!")
                 Game.Game.textSpeed(textSetting)
@@ -598,11 +627,11 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print("Tristan Transforms into a wizard and enchants a spell....")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.tristanTate,"Buggati Buggati on the floor show me the greatest weapon of them all!")
+                print(Game.Game.tristanTate,"Bugatti Bugatti on the floor show me the greatest weapon of them all!")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.tristanTate,"Turn yourself into a two-sided Dice and give it all to Mugman without thinking twice!")
                 Game.Game.textSpeed(textSetting)
-                print("The Buggati Transforms into a two-sided dice capable of causing havok among any enemy.")
+                print("The Bugatti Transforms into a two-sided dice capable of causing havok among any enemy.")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.mugman, "Thank you top G, I am glad to have done this with you, I will need to rescue Cuphead Now!")
                 Game.Game.textSpeed(textSetting)
@@ -625,7 +654,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.PipandDot,"So you have come to join your brother at the torture chamber...")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.mugman, "Buggati Dice! Activate!")
+                print(Game.Game.mugman, "Bugatti Dice! Activate!")
                 Game.Game.textSpeed(textSetting)
                 test = str(input("Type 'Roll' or 'roll' to roll the dice: "))
                 Game.Game.textSpeed(textSetting)
@@ -647,6 +676,9 @@ while True:
                     print("Challenge is won and",Mugman.Mugman.mugmanName,"has won", number, "Making his strength attribute at: ", (Mugman.Mugman.strengthMugman) + number)
                 else: 
                     Game.Game.inGameExit()
+                    
+                Game.Game.textSpeed(textSetting)
+                print(Mugman.Mugman.mugmanName, "Defeats Pip and Dot")
                 Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Saves Cuphead")
 
@@ -686,6 +718,9 @@ while True:
                     print("Challenge is won and",Mugman.Mugman.mugmanName,"has won", number, "Making his speed attribute at: ", (Mugman.Mugman.speedMugman) + number)
                 else: 
                     Game.Game.inGameExit()
+
+                Game.Game.textSpeed(textSetting)
+                print(Mugman.Mugman.mugmanName, "Defeats King Dice")
                 Game.Game.textSpeed(textSetting)
 
                 #Phase Three Loading Screen
@@ -723,13 +758,23 @@ while True:
                     print("Challenge is won and",Mugman.Mugman.mugmanName,"has won", number, "Making his wisdom attribute at: ", (Mugman.Mugman.wisdomMugman) + number)
                 else: 
                     Game.Game.inGameExit()
-                
+
+                Game.Game.textSpeed(textSetting)
+                print(Mugman.Mugman.mugmanName, "Defeats The Devil")
+                Game.Game.textSpeed(textSetting)
+
+                #Final Loading Screen 
+                print(Game.Game.starSymbol)
+                print(Game.Game.loadingScreen.center(70))
+                print(Game.Game.starSymbol)
+                time.sleep(5)    
+
                 #Game Ending Mugman with Statistics Menu Option
                 print("*** Cuphead and Mugman gifts the dice to Ms. Chalice but Ms. Chalice has already changed her facebook status to 'in a relationship with Tristan Tate' ***")
                 Game.Game.textSpeed(textSetting)
                 print("*** Cuphead and Mugman are in shock and can't comprehend what is happening? ***")
                 Game.Game.textSpeed(textSetting)
-                print("Tristan & Andrew: You were both being played in the end and now we would like my have our 10,000,000$ Buggati branded Dice back!")
+                print("Tristan & Andrew: You were both being played in the end and now we would like my have our 10,000,000$ Bugatti branded Dice back!")
                 Game.Game.textSpeed(textSetting)
                 print("To be continued....")
                 Game.Game.textSpeed(textSetting)
@@ -786,7 +831,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate, "Yes, I feel bad and he reminds me a lot of my days eating KFC and my time with Adin too, but a brokie version of himself!")
                 Game.Game.textSpeed(textSetting)
-                print("Andrew & Tristan (Privately): I mean you do realize that King Dice hasn't been fair enough with my casino establishments lately, he's been aiming for a 30 percent cut on our earnings and that is bad, we can't even afford to buying a new Buggati.")
+                print("Andrew & Tristan (Privately): I mean you do realize that King Dice hasn't been fair enough with my casino establishments lately, he's been aiming for a 30 percent cut on our earnings and that is bad, we can't even afford to buying a new Bugatti.")
                 Game.Game.textSpeed(textSetting)
                 print("Tristan (Privately): Also, my expensive cigars were all taken by him not to mention me lending him a my new Aston martin, so now I am driving my Lada and I feel like a brokie too! No other women will see as me as that rich Romanian Playboy that dates models anymore!")
                 Game.Game.textSpeed(textSetting)
@@ -794,9 +839,9 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Have no Worries brother! I will provide you with the weapon of mass destruction!")
                 Game.Game.textSpeed(textSetting)
-                print("*Mugman Andrew and Tristan Enter the Garage*")
+                print("*Mugman, Andrew, and Tristan Enter the Garage*")
                 Game.Game.textSpeed(textSetting)
-                print("A wild Buggati Appears!")
+                print("A wild Bugatti Appears!")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Tristan! Do your thing and transform into a wizard!")
                 Game.Game.textSpeed(textSetting)
@@ -806,11 +851,11 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print("Tristan Transforms into a wizard and enchants a spell....")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.tristanTate,"Buggati Buggati on the floor show me the greatest weapon of them all!")
+                print(Game.Game.tristanTate,"Bugatti Bugatti on the floor show me the greatest weapon of them all!")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.tristanTate,"Turn yourself into a two-sided Dice and give it all to Mugman without thinking twice!")
                 Game.Game.textSpeed(textSetting)
-                print("The Buggati Transforms into a two-sided dice capable of causing havok among any enemy.")
+                print("The Bugatti Transforms into a two-sided dice capable of causing havok among any enemy.")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.mugman, "Thank you top G, I am glad to have done this with you, I will need to rescue Cuphead Now!")
                 Game.Game.textSpeed(textSetting)
@@ -833,7 +878,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.PipandDot,"So you have come to join your brother at the torture chamber...")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.mugman, "Buggati Dice! Activate!")
+                print(Game.Game.mugman, "Bugatti Dice! Activate!")
                 Game.Game.textSpeed(textSetting)
                 test = str(input("Type 'Roll' or 'roll' to roll the dice: "))
                 Game.Game.textSpeed(textSetting)
@@ -855,6 +900,9 @@ while True:
                     print("Challenge is won and",Mugman.Mugman.mugmanName,"has won", number, "Making his strength attribute at: ", (Mugman.Mugman.strengthMugman) + number)
                 else: 
                     Game.Game.inGameExit()
+
+                Game.Game.textSpeed(textSetting)
+                print(Mugman.Mugman.mugmanName, "Defeats Pip and Dot")
                 Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Saves Cuphead")
 
@@ -894,7 +942,11 @@ while True:
                     print("Challenge is won and",Mugman.Mugman.mugmanName,"has won", number, "Making his speed attribute at: ", (Mugman.Mugman.speedMugman) + number)
                 else: 
                     Game.Game.inGameExit()
+
                 Game.Game.textSpeed(textSetting)
+                print(Mugman.Mugman.mugmanName, "Defeats King Dice")
+                Game.Game.textSpeed(textSetting)
+
 
                 #Phase Three Loading Screen
                 print(Game.Game.starSymbol)
@@ -931,13 +983,23 @@ while True:
                     print("Challenge is won and",Mugman.Mugman.mugmanName,"has won", number, "Making his wisdom attribute at: ", (Mugman.Mugman.wisdomMugman) + number)
                 else: 
                     Game.Game.inGameExit()
+
+                Game.Game.textSpeed(textSetting)
+                print(Mugman.Mugman.mugmanName, "Defeats The Devil")
+                Game.Game.textSpeed(textSetting)
+
+                #Final Loading Screen 
+                print(Game.Game.starSymbol)
+                print(Game.Game.loadingScreen.center(70))
+                print(Game.Game.starSymbol)
+                time.sleep(5)    
                 
                 #Game Ending Mugman without statistics Menu Option
                 print("*** Cuphead and Mugman gifts the dice to Ms. Chalice but Ms. Chalice has already changed her facebook status to 'in a relationship with Tristan Tate' ***")
                 Game.Game.textSpeed(textSetting)
                 print("*** Cuphead and Mugman are in shock and can't comprehend what is happening? ***")
                 Game.Game.textSpeed(textSetting)
-                print("Tristan & Andrew: You were both being played in the end and now we would like my have our 10,000,000$ Buggati branded Dice back!")
+                print("Tristan & Andrew: You were both being played in the end and now we would like my have our 10,000,000$ Bugatti branded Dice back!")
                 Game.Game.textSpeed(textSetting)
                 print("To be continued....")
                 Game.Game.textSpeed(textSetting)
