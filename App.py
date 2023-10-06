@@ -3,7 +3,7 @@ import time
 import Cuphead
 import Mugman
 
-#This is the actual game Where everything gets printed this is where the interactivity with the user is being put into test
+#This is the actual game where everything gets printed and this is also where the interactivity with the user is being put into test
 
 print(Game.Game.gameWelcome, Game.Game.gameTitle)
 time.sleep(2)
@@ -157,7 +157,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.cuphead,"So What am I going to do? I have to save Mugman.")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.andrewTate,"Have no Worries brother! I will provide you with the weapon of mass destruction!")
+                print(Game.Game.andrewTate,"Have no worries brother! I will provide you with the weapon of mass destruction!")
                 Game.Game.textSpeed(textSetting)
                 print("*Cuphead, Andrew, and Tristan Enter the Garage*")
                 Game.Game.textSpeed(textSetting)
@@ -165,7 +165,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Tristan! Do your thing and transform into a wizard!")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.tristanTate, "I haven't done this in a while though")
+                print(Game.Game.tristanTate, "I haven't done this in a while though...")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Do it and stop being a coward like our cousin Luke sitting on the computer all day!")
                 Game.Game.textSpeed(textSetting)
@@ -201,9 +201,11 @@ while True:
                 print(Game.Game.cuphead, "Bugatti Dice! Activate!")
                 Game.Game.textSpeed(textSetting)
                 test = str(input("Type 'Roll' or 'roll' to roll the dice: "))
+                
                 Game.Game.textSpeed(textSetting)
                 number = Game.Game.diceRollCuphead()
                 Game.Game.textSpeed(textSetting)
+
 
                 #Phase One Dice Algorithm
                 if(number >= 2 and number <= 3):
@@ -221,6 +223,8 @@ while True:
                 else: 
                     Game.Game.inGameExit()
 
+                Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
                 Game.Game.textSpeed(textSetting)
                 print(Cuphead.Cuphead.cupheadName, "Defeats Pip and Dot")
                 Game.Game.textSpeed(textSetting)
@@ -264,6 +268,8 @@ while True:
                     Game.Game.inGameExit()
 
                 Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
+                Game.Game.textSpeed(textSetting)
                 print(Cuphead.Cuphead.cupheadName, "Defeats King Dice")
                 Game.Game.textSpeed(textSetting)
 
@@ -303,6 +309,8 @@ while True:
                 else: 
                     Game.Game.inGameExit()
 
+                Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
                 Game.Game.textSpeed(textSetting)
                 print(Cuphead.Cuphead.cupheadName, "Defeats The Devil")
                 Game.Game.textSpeed(textSetting)
@@ -381,7 +389,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.cuphead,"So What am I going to do? I have to save mugman.")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.andrewTate,"Have no Worries brother! I will provide you with the weapon of mass destruction!")
+                print(Game.Game.andrewTate,"Have no worries brother! I will provide you with the weapon of mass destruction!")
                 Game.Game.textSpeed(textSetting)
                 print("*Cuphead, Andrew, and Tristan Enter the Garage*")
                 Game.Game.textSpeed(textSetting)
@@ -389,7 +397,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Tristan! Do your thing and transform into a wizard!")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.tristanTate, "I haven't done this in a while though")
+                print(Game.Game.tristanTate, "I haven't done this in a while though...")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Do it and stop being a coward like our cousin Luke sitting on the computer all day!")
                 Game.Game.textSpeed(textSetting)
@@ -446,6 +454,8 @@ while True:
                     Game.Game.inGameExit()
 
                 Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
+                Game.Game.textSpeed(textSetting)
                 print(Cuphead.Cuphead.cupheadName, "Defeats Pip and Dot")
                 Game.Game.textSpeed(textSetting)
                 print(Cuphead.Cuphead.cupheadName, "Saves Mugman")
@@ -489,6 +499,8 @@ while True:
                 Game.Game.textSpeed(textSetting)
 
                 Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
+                Game.Game.textSpeed(textSetting)
                 print(Cuphead.Cuphead.cupheadName, "Defeats King Dice")
                 Game.Game.textSpeed(textSetting)
 
@@ -528,6 +540,8 @@ while True:
                 else: 
                     Game.Game.inGameExit()
 
+                Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
                 Game.Game.textSpeed(textSetting)
                 print(Cuphead.Cuphead.cupheadName, "Defeats The Devil")
                 Game.Game.textSpeed(textSetting)
@@ -613,7 +627,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.mugman,"So What am I going to do? I have to save Cuphead.")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.andrewTate,"Have no Worries brother! I will provide you with the weapon of mass destruction!")
+                print(Game.Game.andrewTate,"Have no worries brother! I will provide you with the weapon of mass destruction!")
                 Game.Game.textSpeed(textSetting)
                 print("*Mugman, Andrew, and Tristan Enter the Garage*")
                 Game.Game.textSpeed(textSetting)
@@ -621,7 +635,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Tristan! Do your thing and transform into a wizard!")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.tristanTate, "I haven't done this in a while though")
+                print(Game.Game.tristanTate, "I haven't done this in a while though...")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Do it and stop being a coward like our cousin Luke sitting on the computer all day!")
                 Game.Game.textSpeed(textSetting)
@@ -678,6 +692,8 @@ while True:
                     Game.Game.inGameExit()
                     
                 Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
+                Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Defeats Pip and Dot")
                 Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Saves Cuphead")
@@ -720,6 +736,8 @@ while True:
                     Game.Game.inGameExit()
 
                 Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
+                Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Defeats King Dice")
                 Game.Game.textSpeed(textSetting)
 
@@ -759,6 +777,8 @@ while True:
                 else: 
                     Game.Game.inGameExit()
 
+                Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
                 Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Defeats The Devil")
                 Game.Game.textSpeed(textSetting)
@@ -837,7 +857,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.mugman,"So What am I going to do? I have to save Cuphead.")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.andrewTate,"Have no Worries brother! I will provide you with the weapon of mass destruction!")
+                print(Game.Game.andrewTate,"Have no worries brother! I will provide you with the weapon of mass destruction!")
                 Game.Game.textSpeed(textSetting)
                 print("*Mugman, Andrew, and Tristan Enter the Garage*")
                 Game.Game.textSpeed(textSetting)
@@ -845,7 +865,7 @@ while True:
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Tristan! Do your thing and transform into a wizard!")
                 Game.Game.textSpeed(textSetting)
-                print(Game.Game.tristanTate, "I haven't done this in a while though")
+                print(Game.Game.tristanTate, "I haven't done this in a while though...")
                 Game.Game.textSpeed(textSetting)
                 print(Game.Game.andrewTate,"Do it and stop being a coward like our cousin Luke sitting on the computer all day!")
                 Game.Game.textSpeed(textSetting)
@@ -902,6 +922,8 @@ while True:
                     Game.Game.inGameExit()
 
                 Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
+                Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Defeats Pip and Dot")
                 Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Saves Cuphead")
@@ -944,6 +966,8 @@ while True:
                     Game.Game.inGameExit()
 
                 Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
+                Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Defeats King Dice")
                 Game.Game.textSpeed(textSetting)
 
@@ -984,6 +1008,8 @@ while True:
                 else: 
                     Game.Game.inGameExit()
 
+                Game.Game.textSpeed(textSetting)
+                print("** The mysterious power of the Bugatti dice eradicates the enemy ***")
                 Game.Game.textSpeed(textSetting)
                 print(Mugman.Mugman.mugmanName, "Defeats The Devil")
                 Game.Game.textSpeed(textSetting)

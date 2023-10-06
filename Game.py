@@ -55,7 +55,7 @@ class Game:
     mugmanHealthLevel = Mugman.Mugman.healthMugman
 
     #Atmosphere
-    Atmosphere1 = "*CupHead and Mugman are kidnapped by King Dice's Henchmen*"
+    Atmosphere1 = "*Cuphead and Mugman are kidnapped by King Dice's Henchmen*"
     Atmosphere2 = "*The Henchmen forcefully take the brothers to King Dice's office*"
 
     #King Dice's Office Speech
