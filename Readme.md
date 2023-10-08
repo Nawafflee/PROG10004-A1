@@ -1,4 +1,5 @@
-# To start the appliction input the following command on the terminal
+# To start the appliction input the following command on the terminal:
 cd "PROG10004 A1"
-Write the following on the terminal:
+
+# then write the following command on the terminal to compile and have the PVM Interpret the Application file:
 python App.py

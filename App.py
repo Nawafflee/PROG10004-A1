@@ -3,7 +3,9 @@ import time
 import Cuphead
 import Mugman
 
-#This is the actual game where everything gets printed and this is also where the interactivity with the user is being put into test
+"""This module contains the actual game where everything gets printed and this is also where the interactivity with the user is being put into test"""
+"""Github Repository https://github.com/Nawafflee/PROG10004-A1 """
+
 
 print(Game.Game.gameWelcome, Game.Game.gameTitle)
 time.sleep(2)
