@@ -3,7 +3,7 @@
 
 class Cuphead:
     #Cuphead's name to make it easier to call him when he's required to be called upon!
-    cupheadName = "Cuphead" 
+    CUPHEAD_NAME = "Cuphead" 
 
     # Cuphead is a strong character and is able to take down bosses with ease using his ultimate move "The energy beam" 
     strengthCuphead = 2 

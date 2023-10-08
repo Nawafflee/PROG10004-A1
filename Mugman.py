@@ -2,7 +2,7 @@
 
 class Mugman:
     #Mugman's name to make it easier to call him when he's required to be called upon!
-    mugmanName= "Mugman" 
+    MUGMAN_NAME= "Mugman" 
 
     #Mugman is not strong with his ultimate move "The energy beam" as he still experiences difficulties mastering it
     strengthMugman = -2 
