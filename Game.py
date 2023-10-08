@@ -3,7 +3,7 @@ import Cuphead
 import Mugman
 import random
 
-#This Module below is used to implement the Game Data and Logic
+"""This Module is used to implement the Game Data and Logic"""
 
 class Game:
     
@@ -19,14 +19,14 @@ class Game:
     gameIntro7  = "Mercy - Where do you go *song playing in the background*"
     gameIntro8  = "A wild Ms. Chalice appears out of nowhere..."
     gameIntro9  = "Both Cuphead and Mugman fall in love with Ms. Chalice trying their best to win her heart..."
-    gameIntro10 ="They both spent money taking her out on expensive Caviar and Oyester restaurants not knowing that their savings will soon run out..."
+    gameIntro10 ="They both spent money taking her out on expensive Caviar and Oyster restaurants not knowing that their savings will soon run out..."
     gameIntro11 ="Their wallets running dry and with desperate calls comes desperate measures..."
     gameIntro12 ="That means that they have to go back to the casino..."
-    gameIntro13 ="Unfortunately... They borrowed so much money again from the casino and lost it all betting on black on Roulette..."
+    gameIntro13 ="Unfortunately... They borrowed so much money again from the casino and lost it all betting black on Roulette..."
     gameIntro14 ="They were again at the mercy of King Dice and his henchmen..."
     gameIntro15 ="Their debts are now due...."
 
-    #in-game loading symbols and Loading Screen
+    #In-game loading symbols and Loading Screen
     starSymbol = "**********************************************************************************" #just a divider between texts
     minusSymbol ="----------------------------------------------------------------------------------"
     hashtagSymbol = "###############################################################################"
@@ -80,7 +80,7 @@ class Game:
     #Player Selection Screen
     playerSelect = "Dear Player, It is up to you to control the outcome of this game type 'Cuphead' or 'Mugman' to have as your main character: "
 
-    #Simple and Basic random dice roll Algorithm function for Cuphead
+    """Simple and Basic random dice roll Algorithm function for Cuphead"""
     def diceRollCuphead():
         dice1 = random.randint(1,6)
         dice2 = random.randint(1,6)
@@ -90,7 +90,7 @@ class Game:
         print("Total Dice Roll is : ", totalDice)
         return totalDice
     
-    #Simple and Basic random dice roll Algorithm function for Mugman
+    """Simple and Basic random dice roll Algorithm function for Mugman"""
     def diceRollMugman():
         dice1 = random.randint(1,6)
         dice2 = random.randint(1,6)
@@ -101,11 +101,11 @@ class Game:
         return totalDice
 
 
-    #Time Function in between script texts
+    """Time Function in between script texts"""
     def textSpeed(x):
         time.sleep(x)
         return x
     
-    #Simple In-game exit functon
+    """Simple In-game exit function"""
     def inGameExit():
         quit()
