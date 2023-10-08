@@ -19,10 +19,10 @@ class Game:
     gameIntro7  = "Mercy - Where do you go *song playing in the background*"
     gameIntro8  = "A wild Ms. Chalice appears out of nowhere..."
     gameIntro9  = "Both Cuphead and Mugman fall in love with Ms. Chalice trying their best to win her heart..."
-    gameIntro10 ="They both spent money taking her out on expensive Caviar and Oyester restaurants not knowing that their savings will soon run out..."
+    gameIntro10 ="They both spent money taking her out on expensive Caviar and Oyster restaurants not knowing that their savings will soon run out..."
     gameIntro11 ="Their wallets running dry and with desperate calls comes desperate measures..."
     gameIntro12 ="That means that they have to go back to the casino..."
-    gameIntro13 ="Unfortunately... They borrowed so much money again from the casino and lost it all betting on black on Roulette..."
+    gameIntro13 ="Unfortunately... They borrowed so much money again from the casino and lost it all betting black on Roulette..."
     gameIntro14 ="They were again at the mercy of King Dice and his henchmen..."
     gameIntro15 ="Their debts are now due...."
 
